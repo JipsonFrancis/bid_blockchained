@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const MyContract = require("./build/contracts/Bid.json");
 const contractABI = MyContract.abi;
 const contractAddress = '0x58FE2Dae748bA1ad8268ccfaaAc45011d20db85e'; // Enter your contract address here
-const rpcEndpoint = 'https://eth.getblock.io/8c28ff0f-f2ee-4779-b397-089645d115cf/mainnet/'; // Enter your RPC server endpoint URL here
+const rpcEndpoint = 'https://eth.getblock.io/5ef64210-c546-40a3-96cf-ecfbab5eb816/goerli/'; // Enter your RPC server endpoint URL here
 
 const app = express();
 const web3 = new Web3(new Web3.providers.HttpProvider(rpcEndpoint));
