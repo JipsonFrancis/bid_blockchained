@@ -65,8 +65,8 @@ module.exports = {
     // options below to some value.
     //
     development: {
-     host: "127.0.0.1",     // Localhost (default: none)
-     port: 8545,            // Standard Ethereum port (default: none)
+     host: "https://eth.getblock.io/8c28ff0f-f2ee-4779-b397-089645d115cf/mainnet/",     // Localhost (default: none)
+     port: 8000,            // Standard Ethereum port (default: none)
      network_id: "*",       // Any network (default: none)
     },
     //
